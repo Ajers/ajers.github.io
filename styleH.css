@@ -8,8 +8,8 @@
   /* Main Styling */
   html,
   body {
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    font-family: 'Times New Roman', sans-serif;
+    color: whitesmoke;
   }
   
   h1 {font-size: 2.441rem;}
@@ -211,7 +211,7 @@
   
   /* Testimonials */
   #testimonial {
-    background: url('');
+    background: url('Hotel6.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

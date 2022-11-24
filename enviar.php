@@ -16,9 +16,9 @@ $message .= "Mensaje: " . $_POST['message'] . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
 $para = 'HotelBellaVistaHN@gmail.com';
-$asunto = 'MAsunto de mensaje';
+$asunto = 'Asunto de mensaje';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:ContactoHotel.html");
+header("Location:IndexHotelWelcome.html");
 ?>
