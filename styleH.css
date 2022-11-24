@@ -285,17 +285,20 @@
   /* Footer */
   #mainfooter {
     text-align: center;
-    color: blue;
+    color: #4d4d4d;
   }
 
-  .templatemo_contactform .btn-primary {
-    background: #92bf24;
-    border: none;
-    border-radius: 0px;
-    color: #3d5602;
-    font-weight: 800;
+.btn-primary {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  background: blue;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.templatemo_contactform .btn-primary:hover {
-    background: #a6d82c;
+.btn-primary:hover {
+    background: orange;
 }
