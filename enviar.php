@@ -20,5 +20,5 @@ $asunto = 'Asunto de mensaje';
 
 mail($para, $asunto, utf8_decode($message), $header);
 
-header("Location:IndexHotelWelcome.html");
+header("Location:indexHotelWelcome.html");
 ?>
