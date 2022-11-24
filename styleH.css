@@ -288,6 +288,14 @@
     color: #4d4d4d;
   }
 
- #form button {
-  color: blue;
- }
+  .templatemo_contactform .btn-primary {
+    background: #92bf24;
+    border: none;
+    border-radius: 0px;
+    color: #3d5602;
+    font-weight: 800;
+}
+
+.templatemo_contactform .btn-primary:hover {
+    background: #a6d82c;
+}
